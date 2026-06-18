@@ -19,3 +19,4 @@ Communication between AI GPT Model Ollama Phi4mini and GSASLPC1768 Microcontroll
 
 ### Implementation
 - There is a scanning system, which will keep looping over the 4x4 matrix, waiting for one row to go low and one column to go high, there by crossing that intersection as the currect selected key
+- This scanning system will keep running indefinetly 
