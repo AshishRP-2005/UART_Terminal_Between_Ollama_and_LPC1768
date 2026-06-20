@@ -19,4 +19,13 @@ Communication between AI GPT Model Ollama Phi4mini and GSASLPC1768 Microcontroll
 
 ### Implementation
 - There is a scanning system, which will keep looping over the 4x4 matrix, waiting for one row to go low and one column to go high, there by crossing that intersection as the currect selected key
-- This scanning system will keep running indefinetly 
+- This scanning system will keep running indefinetly
+
+## GLCD - Display
+- The onboard glcd display is used to display the input value from the T9 Texting system and Display the output response you get from the laptop through the UART terminal
+
+## UART Terminal
+- The UART terminal is used for communication between AI(present in laptop) and microcontroller
+- The T9 input from the board is sent through UART to the Laptop
+- The python script in the laptop accpets the input, calls the AI model and sends the output response of the AI to the terminal
+- The UART recieves the output and displays it on the GLCD display
