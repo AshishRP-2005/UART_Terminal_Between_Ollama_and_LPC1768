@@ -1,6 +1,6 @@
 # Day 1
 ##  Test codes I have written
-
+## Errors in the main code
 ## Main code and global variables
 ```
 void main (void)
