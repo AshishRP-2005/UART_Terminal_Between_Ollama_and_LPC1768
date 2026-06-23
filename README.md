@@ -29,3 +29,9 @@ Communication between AI GPT Model Ollama Phi4mini and GSASLPC1768 Microcontroll
 - The T9 input from the board is sent through UART to the Laptop
 - The python script in the laptop accpets the input, calls the AI model and sends the output response of the AI to the terminal
 - The UART recieves the output and displays it on the GLCD display
+
+## Python + LLM 
+- The python is script is run through the terminal constantly
+- It waits for input from the board through the terminal
+- Then calls the LLM and sends question along with master prompt to it
+- It sends output prepared by LLM and Refitted by the script itself to the Board through the UART 
